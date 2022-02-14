@@ -1,0 +1,102 @@
+.light-theme {
+    --color-dark: #fffff;
+    --color-light: #1C1C1C;
+}
+
+.header-container.light-theme {
+    background: url("../assets/img/header-light-bg.jpg") no-repeat center 0;
+}
+
+.hero-container.light-theme {
+    background: url("../assets/img/header-light-bg.jpg") no-repeat center -90px;
+}
+
+.lang-switch.light-theme > .lang-switch__elem_selected {
+    color: #ffffff;
+}
+
+.button.light-theme {
+    color: var(--color-dark);
+    background-color: var(--color-primary);
+}
+
+.button.light-theme:hover {
+    color: #ffffff;
+}
+
+.button_colored.light-theme {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button_tablet-size.light-theme, .button_tablet-size.light-theme {
+    background-color: #ffffff;
+    color: var(--color-light);
+}
+
+.button_colored.light-theme:hover {
+    background-color: #000000;
+    color: var(--color-primary);
+}
+
+.button_light-theme.light-theme {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+
+.section__title.light-theme {
+    color: var(--color-light);
+}
+
+.section__title_line-through.light-theme::before, .section__title_line-through.light-theme::after {
+    background-color: var(--color-light);
+}
+
+.price-card__cost.light-theme {
+    color: var(--color-light);
+}
+
+.icon_video.light-theme {
+    fill: #ffffff;
+}
+
+.icon_theme.light-theme {
+    width: 40px;
+    height: 40px;
+}
+
+.icon_video.light-theme:hover {
+    fill: var(--color-primary);
+}
+
+.contacts-container.light-theme {
+    background: url("../assets/img/contacts-light-bg.jpg") no-repeat center 0;
+}
+
+.form__input.light-theme, .form__message-input.light-theme {
+    background: rgba(255, 255, 255, 0.5);
+    color: var(--color-light);
+}
+
+.form__input.light-theme::placeholder, .form__message-input.light-theme::placeholder {
+    color: var(--color-light);
+}
+
+@media screen and (max-width: 768px) {
+    .header-container.light-theme {
+        background: url("../assets/img/tablet-header-light-bg.jpg") no-repeat center 0;
+    }
+
+    .hero-container.light-theme {
+        background: url("../assets/img/tablet-header-light-bg.jpg") no-repeat center -90px;
+    }
+
+    .nav-list.open.light-theme {
+        background-color: #ffffff;
+    }
+
+    .contacts-container.light-theme {
+        background: url("../assets/img/tablet-contacts-light-bg.jpg") no-repeat center 0;
+    }
+}
