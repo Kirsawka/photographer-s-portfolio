@@ -3,6 +3,9 @@ Photographer's portfolio – это учебный проект подготов
 
 [Демо](https://kirsawka.github.io/photographer-s-portfolio)
 
+![image](https://user-images.githubusercontent.com/83959481/190123702-514af45f-c7ee-4760-b43b-f1393a89e45d.png)
+
+
 ## Ключевые навыки:
 - валидная семантическая адаптивная вёрстка
 - легкоподдерживаемый читаемый код
