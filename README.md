@@ -1,5 +1,5 @@
 # Portfolio
-Photographer's portfolio – это учебный проект подготовительного курса "JavaScript/Front-end" школы Rolling Scopes School, в ходе выполнения которого сверстан landing page портфолио фотографа.
+Photographer's portfolio – это учебный проект подготовительного курса "JavaScript/Front-end" школы Rolling Scopes School от [EPAM](https://www.epam.com/), в ходе выполнения которого сверстан landing page портфолио фотографа.
 
 **[Демо](https://kirsawka.github.io/photographer-s-portfolio)**
 
